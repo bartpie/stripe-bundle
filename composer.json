@@ -1,5 +1,5 @@
 {
-    "name": "flosch/stripe-bundle",
+    "name": "bartpie/stripe-bundle",
     "type": "symfony-bundle",
     "description": "Symfony 3 bundle to easily integrate Stripe's webpayment SDK into a Symfony project.",
     "keywords": [
@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "symfony/symfony": "~3.0",
+        "symfony/framework-bundle": "~3.0 || ~4.0 || ~5.0",
         "stripe/stripe-php": "~3.23",
         "ocramius/proxy-manager": "~1.0.2 || ^2.0"
     },
